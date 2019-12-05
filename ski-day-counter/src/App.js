@@ -2,12 +2,23 @@ import React from 'react';
 import logo from './logo.svg';
 import './App.css';
 
-import SkiDayCounter from "SkiDayCounter";
-
 function App() {
   return (
     <div className="App">
-      <SkiDayCounter total={100} powder={30} bacncountry={10} goal={40}/>
+      <header className="App-header">
+        <img src={logo} className="App-logo" alt="logo" />
+        <p>
+          Edit <code>src/App.js</code> and save to reload.
+        </p>
+        <a
+          className="App-link"
+          href="https://reactjs.org"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Learn React
+        </a>
+      </header>
     </div>
   );
 }
